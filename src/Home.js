@@ -50,19 +50,19 @@ const Home = () => {
       if(data.weather[0].main == "Clouds"){
          setWeatherIcon(Clouds)
       }
-      else if(data.weather[0].main == "Clear"){
+      else if(data.weather[0].main === "Clear"){
          setWeatherIcon(Clear);
       }
    
-      else if(data.weather[0].main == "Rain"){
+      else if(data.weather[0].main === "Rain"){
          setWeatherIcon(Rain);
       }
    
-      else if(data.weather[0].main == "Drizzle"){
+      else if(data.weather[0].main === "Drizzle"){
          setWeatherIcon(Drizzle);
       }
    
-      else if(data.weather[0].main == "Mist"){
+      else if(data.weather[0].main === "Mist"){
          setWeatherIcon(Mist);
       }
       
