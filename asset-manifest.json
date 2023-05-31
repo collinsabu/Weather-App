@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/waether-app%20%20/static/css/main.81531c1c.css",
+    "main.js": "/waether-app%20%20/static/js/main.548d8922.js",
+    "static/media/clouds.png": "/waether-app%20%20/static/media/clouds.058d1121e95348721a5e.png",
+    "static/media/mist.png": "/waether-app%20%20/static/media/mist.bec995ef50f9dab24180.png",
+    "static/media/drizzle.png": "/waether-app%20%20/static/media/drizzle.586dab4fa773ec5fbaaf.png",
+    "index.html": "/waether-app%20%20/index.html",
+    "main.81531c1c.css.map": "/waether-app%20%20/static/css/main.81531c1c.css.map",
+    "main.548d8922.js.map": "/waether-app%20%20/static/js/main.548d8922.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81531c1c.css",
+    "static/js/main.548d8922.js"
+  ]
+}
