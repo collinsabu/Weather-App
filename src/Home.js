@@ -27,7 +27,7 @@ const Home = () => {
   const [error, setError] = useState(false);
   const [weatherIcon, setWeatherIcon] = useState(Rain)
 
-  const apiKey = "872fbab9e183ee2b82f996c2c0447de0";
+  const apiKey = "";
   const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
   async function checkWeather(city) {
