@@ -47,7 +47,7 @@ const Home = () => {
         setError(true);
       }
        // check weather condition to determine image
-      if(data.weather[0].main == "Clouds"){
+      if(data.weather[0].main === "Clouds"){
          setWeatherIcon(Clouds)
       }
       else if(data.weather[0].main === "Clear"){
